@@ -4,13 +4,19 @@ window.addEventListener('scroll', function () {
 
     if (window.scrollY > viewportHeight) {
         navbar.style.position = 'fixed';
-        navbar.style.backgroundColor = '#c2e5ff';
+        navbar.style.backgroundColor = '#000000';
         navbar.style.boxShadow = '2px 0 4px 0 rgba(0, 0, 0, 0.4)'
         navbar.classList.add('navbar-appear');
+        navbar.querySelectorAll('a').forEach(a => {
+            a.style.color = '#ffffff'
+        })
     } else {
         navbar.style.position = 'absolute';
         navbar.style.backgroundColor = 'transparent';
         navbar.style.boxShadow = '2px 0 4px 0 rgba(0, 0, 0, 0)'
         navbar.classList.remove('navbar-appear');
+        navbar.querySelectorAll('a').forEach(a => {
+            a.style.color = '#000000'
+        })
     }
 });
