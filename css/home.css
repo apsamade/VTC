@@ -170,6 +170,33 @@ header .container .btns a:hover{
     flex-grow: 1;
     height: 300px;
     border-radius: 6px;
+    position: relative;
+    color: white;
+    z-index: 1;
+}
+#contact .container div p{
+    text-shadow: 1px 1px 1px black;
+    line-height: 175%;
+    margin: 15px;
+}
+#contact .container div h3{
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 1px black;
+    margin: 15px;
+}
+#contact .container div::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
+#contact .container div:hover::before{
+    background-color: rgba(0, 0, 0, 0.65);
 }
 #contact h2{
     margin: 15px 15px -5px;
