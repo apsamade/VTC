@@ -92,7 +92,8 @@ header .container .btns a:hover{
 }
 @media screen and (max-width: 900px) {
     header .container{
-        margin: auto 15px;
+        margin: auto;
+        width: calc(100% - 20px);
         padding: 45px 0 40px;
     }
     header .container h1{
@@ -118,6 +119,19 @@ header .container .btns a:hover{
         background-color: white;
         color: black;
         padding: 14px 22px;
+    }
+    #presentation div:not(.para){
+        max-width: 500px;
+        margin: 25px auto;
+    }
+    #presentation img{
+        width: 90%;
+        max-width: 500px;
+        margin: auto;
+        display: block;
+    }
+    #presentation{
+        flex-direction: column;
     }
 }
 
