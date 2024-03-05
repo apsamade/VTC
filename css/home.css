@@ -273,6 +273,10 @@ header .container .btns a:hover{
     #service .btns a{
         margin: 15px;
     }
+    #contact .container div {
+        flex-basis: 300px;
+        min-height: 300px;
+    }
 }
 
 @keyframes gradientAnimation {
