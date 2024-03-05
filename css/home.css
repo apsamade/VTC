@@ -168,7 +168,7 @@ header .container .btns a:hover{
     flex-basis: 40%;
     margin: 10px;
     flex-grow: 1;
-    height: 300px;
+    min-height: 300px;
     border-radius: 6px;
     position: relative;
     color: white;
