@@ -40,6 +40,8 @@ nav {
     justify-content: space-between;
     border-radius: 0 0 6px 6px;
     z-index: 15;
+    opacity: 0;
+    animation: fadeIn 0.3s 0s ease forwards;
 }
 
 /* Ajouter une classe pour l'animation d'apparition */
@@ -51,7 +53,7 @@ nav {
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(-100px);
+        transform: translateY(-20px);
     }
 
     to {
