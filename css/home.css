@@ -58,6 +58,10 @@ header .container .btns a:hover{
     margin: 50px auto;
     max-width: 1200px;
     min-width: 325px;
+    padding: 8px;
+    border-radius: 6px;
+    color: white;
+    background: linear-gradient(to right, #5b5b5b, #000000);
 }
 #presentation div:not(.para){
     margin: 20px;
@@ -77,7 +81,7 @@ header .container .btns a:hover{
 }
 #presentation div a{
     width: 100%;
-    background: linear-gradient(to right, #000000, #797979);
+    background: linear-gradient(to right, #000000, #575757);
     background-size: 200% 200%;
     animation: gradientAnimation 3s linear infinite;
     color: white;
@@ -86,6 +90,11 @@ header .container .btns a:hover{
     border-radius: 6px;
     text-align: center;
     text-decoration: none;
+    transition: transform 0.3s;
+}
+#presentation div a:hover{
+    transform: scale(1.08);
+    animation-play-state: paused;
 }
 #presentation img{
     border-radius: 6px;
