@@ -241,7 +241,10 @@ footer h4{
     }
 
     aside img {
-        width: 100px;
+        width: 130px;
+        padding: 0 8px;
+        border-radius: 6px;
+        background-color: white;
         margin: 15px;
     }
 
@@ -256,7 +259,18 @@ footer h4{
         margin: 10px;
         font-size: 20px;
     }
-
+    aside .reseaux{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    aside .reseaux img{
+        width: 50px;
+        background-color: white;
+        padding: 5px;
+        border-radius: 6px;
+        margin: 0;
+    }
     aside ul {
         min-width: 80%;
         margin: 10px 0;
