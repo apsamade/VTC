@@ -11,16 +11,16 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #7d89ff96; /* Couleur de fond de la piste de défilement */
+    background: #00000096; /* Couleur de fond de la piste de défilement */
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #0051ff;
+    background: #202020;
     border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #3e71fd; /* Couleur de la poignée de défilement au survol */
+    background: #000000; /* Couleur de la poignée de défilement au survol */
 }
 html {
     scroll-behavior: smooth;
@@ -40,8 +40,6 @@ nav {
     justify-content: space-between;
     border-radius: 0 0 6px 6px;
     z-index: 15;
-    opacity: 0;
-    animation: fadeIn 0.3s 0s ease forwards;
 }
 
 /* Ajouter une classe pour l'animation d'apparition */

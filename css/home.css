@@ -51,3 +51,84 @@ header .container .btns a:hover{
     color: black;
     padding: 14px 22px;
 }
+#presentation{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin: 50px auto;
+    max-width: 1200px;
+    min-width: 325px;
+}
+#presentation div:not(.para){
+    margin: 20px;
+}
+#presentation div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#presentation div h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 2.2rem;
+}
+#presentation div p{
+    line-height: 175%;
+    margin: 15px 0;
+}
+#presentation div a{
+    width: 100%;
+    background: linear-gradient(to right, #000000, #797979);
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s linear infinite;
+    color: white;
+    display: block;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+}
+#presentation img{
+    border-radius: 6px;
+}
+@media screen and (max-width: 900px) {
+    header .container{
+        margin: auto 15px;
+        padding: 45px 0 40px;
+    }
+    header .container h1{
+        font-size: 2.1rem;
+        text-align: center;
+    }
+    header .container hr{
+        margin: 5px;
+    }
+    header .container p{
+        margin: 15px 5px;
+        text-align: justify;
+    }
+    header .container .btns{
+        width: 100%;
+        margin: 30px auto 10px;
+    }
+    header .container .btns a{
+        width: 100%;
+        text-align: center;
+    }
+    header .container .btns a:hover{
+        background-color: white;
+        color: black;
+        padding: 14px 22px;
+    }
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
