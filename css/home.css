@@ -194,6 +194,7 @@ header .container .btns a:hover{
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s;
+    border-radius: 6px;
 }
 #contact .container div:hover::before{
     background-color: rgba(0, 0, 0, 0.65);
