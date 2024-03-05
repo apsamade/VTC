@@ -122,6 +122,17 @@ header .container .btns a:hover{
     }
     #presentation div:not(.para){
         max-width: 500px;
+        width: calc(100% - 20px);
+        margin: 25px auto;
+    }
+    #presentation h2{
+        text-align: center;
+    }
+    #presentation p {
+        text-align: justify;
+        margin: 15px;
+    }
+    #presentation a{
         margin: 25px auto;
     }
     #presentation img{
