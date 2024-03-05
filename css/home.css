@@ -99,6 +99,34 @@ header .container .btns a:hover{
 #presentation img{
     border-radius: 6px;
 }
+#service{
+    margin: 200px auto 50px;
+    min-height: 50vh;
+    background-color: #161616;
+}
+#service #infos{
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.6);
+    min-height: 125px;
+    margin: auto;
+    border-radius: 60px;
+    position: relative;
+    bottom: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#service #infos div{
+    padding: 10px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 6px;
+}
+#contact{
+    min-height: 50vh;
+}
 @media screen and (max-width: 900px) {
     header .container{
         margin: auto;
