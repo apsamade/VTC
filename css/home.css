@@ -214,6 +214,19 @@ header .container .btns a:hover{
     #presentation{
         flex-direction: column;
     }
+    #service{
+        padding-bottom: 25px;
+    }
+    #service #infos{
+        flex-wrap: wrap;
+    }
+    #service p{
+        text-align: justify;
+        margin: 25px;
+    }
+    #service .btns a{
+        margin: 15px;
+    }
 }
 
 @keyframes gradientAnimation {
