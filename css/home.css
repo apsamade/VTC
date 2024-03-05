@@ -1,5 +1,6 @@
 header{
-    min-height: 60vh;
-    background-image: url(/img/background/background_header.jpg);
+    min-height: 90vh;
+    background-image: url(/img/background/background_header_3.png);
     background-size: cover;
+    background-position: 70% 70%;
 }
