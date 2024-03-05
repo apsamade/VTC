@@ -164,6 +164,7 @@ header .container .btns a:hover{
 }
 #contact .container div{
     background-color: black;
+    background-size: cover;
     flex-basis: 40%;
     margin: 10px;
     flex-grow: 1;
