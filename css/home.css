@@ -157,9 +157,13 @@ header .container .btns a:hover{
         color: black;
         padding: 14px 22px;
     }
+    #presentation{
+        width: calc(100% - 20px);
+        padding: 20px;
+    }
     #presentation div:not(.para){
         max-width: 500px;
-        width: calc(100% - 20px);
+        width: calc(100%);
         margin: 25px auto;
     }
     #presentation h2{
