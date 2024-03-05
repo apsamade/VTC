@@ -118,6 +118,36 @@ header .container .btns a:hover{
     align-items: center;
     justify-content: space-around;
 }
+#service h2{
+    text-align: center;
+    color: white;
+    font-size: 2.2rem;
+}
+#service p{
+    max-width: 1200px;
+    font-size: 17px;
+    color: white;
+    margin: 25px auto;
+    line-height: 200%;
+}
+#service .btns a{
+    max-width: 1200px;
+    background: linear-gradient(to right, #161616, #696969);
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s linear infinite;
+    color: white;
+    display: block;
+    margin: 15px auto;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+#service .btns a:hover{
+    transform: scale(1.08);
+    animation-play-state: paused;
+}
 #service #infos div{
     padding: 10px;
     margin: 10px;

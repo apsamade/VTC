@@ -156,14 +156,14 @@ aside {
 }
 .whatsapp img{
     width: 50px;
-    background-color: #481c4a6e;
+    background-color: #0000004f;
     border-radius: 6px;
     padding: 4px;
     transition: transform 0.3s, background-color 0.3s;
 }
 .whatsapp img:hover{
     transform: scale(1.05);
-    background-color: #481c4a;
+    background-color: #000000;
 }
 footer{
     min-height: 25vh;
