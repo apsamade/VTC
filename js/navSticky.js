@@ -4,11 +4,11 @@ window.addEventListener('scroll', function () {
 
     if (window.scrollY > viewportHeight) {
         navbar.style.position = 'fixed';
-        navbar.style.backgroundColor = '#000000';
+        navbar.style.backgroundColor = '#ffffff';
         navbar.style.boxShadow = '2px 0 4px 0 rgba(0, 0, 0, 0.4)'
         navbar.classList.add('navbar-appear');
         navbar.querySelectorAll('a').forEach(a => {
-            a.style.color = '#ffffff'
+            a.style.color = '#000000'
         })
     } else {
         navbar.style.position = 'absolute';
@@ -16,7 +16,7 @@ window.addEventListener('scroll', function () {
         navbar.style.boxShadow = '2px 0 4px 0 rgba(0, 0, 0, 0)'
         navbar.classList.remove('navbar-appear');
         navbar.querySelectorAll('a').forEach(a => {
-            a.style.color = '#000000'
+            a.style.color = '#ffffff'
         })
     }
 });

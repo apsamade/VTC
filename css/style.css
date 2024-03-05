@@ -71,9 +71,8 @@ nav ul li {
     margin: 5px;
     display: block;
 }
-
 nav .logo img {
-    width: 80px;
+    width: 120px;
     margin: 5px;
     border-radius: 4px;
     display: block;
@@ -91,19 +90,29 @@ nav .login {
 
 nav a:not(.logo) {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 500;
     padding: 12px;
     font-size: 20px;
     border-radius: 4px;
     transition: background-color 0.3s ease, position 0.3s ease, color 0.3s;
 }
-
+nav .reseaux li a{
+    margin: 0;
+    padding: 6px;
+    transition: transform 0.3s;
+}
+nav .reseaux li a img{
+    width: 40px;
+}
 nav a:not(.logo):hover {
-    color: white;
+    color: white !important;
     background-color: #151515;
 }
-
+nav .reseaux li a:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+}
 .modVisible {
     opacity: 1;
     visibility: visible;
@@ -140,7 +149,22 @@ nav a:not(.logo):hover {
 aside {
     display: none;
 }
-
+.whatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.whatsapp img{
+    width: 50px;
+    background-color: #481c4a6e;
+    border-radius: 6px;
+    padding: 4px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.whatsapp img:hover{
+    transform: scale(1.05);
+    background-color: #481c4a;
+}
 footer{
     min-height: 25vh;
     display: flex;
